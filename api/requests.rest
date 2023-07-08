@@ -1,0 +1,14 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{"text": "get a CupCake"}
+
+###
+DELETE  http://localhost:3001/todo/delete/64a8e85985c21223af2da354
+
+###
+PUT http://localhost:3001/todo/complete/64a8ea0794db2876fafa0ee6 
